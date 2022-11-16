@@ -1,0 +1,21 @@
+body {
+    background-color: grey;
+    color: white;
+}
+/* navigation bar*/
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .nav-list li {
+    flex-grow: 0;
+  /*   flex-shrink: 1; */
+  }
+  
