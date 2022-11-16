@@ -16,6 +16,16 @@ body {
   
   .nav-list li {
     flex-grow: 0;
-  /*   flex-shrink: 1; */
-  }
+   }
+
+   .main-container {
+    display: flex;
+    flex-direction: column;
+    
+   }
+   .item {
+    background-color: orange;
+    flex-grow: 1;
+    gap: 2rem;
+   }
   
