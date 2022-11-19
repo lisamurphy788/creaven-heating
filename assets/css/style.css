@@ -10,6 +10,7 @@ body {
  font-weight: 300;
  background-color: grey;
  color: white;
+ overflow-y: hidden;
  
 
 }
@@ -34,11 +35,14 @@ header {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: flex-end;
+
+	align-items: center;
 	
 	
 	list-style: none;
 	margin: 0; 
 	background: rgb(77, 77, 78);
+	height: 100%;
   }
   
   .navigation a {
@@ -50,7 +54,7 @@ header {
   }
   
   .navigation a:hover {
-	background: #1565C0;
+	background: orange;
   }
   
   @media all and (max-width: 800px) {
