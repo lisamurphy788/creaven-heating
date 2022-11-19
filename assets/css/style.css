@@ -16,14 +16,16 @@ body {
 header {
 	background-color: white;
 	display: flex;
+	flex-direction: row;
 	float: left;
 	width: 100%;
+	flex-grow: 4;
+	justify-content: space-between;
 
-	
 }
 	
 #logo {
-	font-size: 100%;
+	background-color: white;
 	
 }
 /*adapted from https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
@@ -32,6 +34,7 @@ header {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: flex-end;
+	
 	
 	list-style: none;
 	margin: 0; 
@@ -43,6 +46,7 @@ header {
 	display: block;
 	padding: 1em;
 	color: white;
+	
   }
   
   .navigation a:hover {
@@ -61,7 +65,7 @@ header {
 	  padding: 0;
 	}
 	.navigation a { 
-	  text-align: center; 
+	  text-align: end; 
 	  padding: 10px;
 	  border-top: 1px solid rgba(255, 255, 255,0.3); 
 	  border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
@@ -69,4 +73,5 @@ header {
 	.navigation li:last-of-type a {
 	  border-bottom: none;
 	}
+	
   }
