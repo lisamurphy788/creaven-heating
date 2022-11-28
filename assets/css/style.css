@@ -10,7 +10,7 @@ body {
  font-weight: 300;
  background-color: grey;
  color: white;
- overflow-y: hidden;
+ 
  
 
 }
@@ -30,7 +30,7 @@ header {
 	
 }
 img {
-    width: 300px;
+    width: 100%;
 }
 /*adapted from https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
 
@@ -61,18 +61,79 @@ img {
   .navigation a:hover {
 	background: orange;
   }
+/* hero image and cover text */
 
+#hero-outer {
+    height: auto;
+    width: 100%;
+    overflow: hidden;
 
-  .hero-image {
-	
-  }
+    position: relative;
+}
+
+#cover-text, #cover-text h2 {
+    color: #fff;
+}
+
+#hero-image {
+    height: auto;
+    width: 100%;
+    
+
+    /* animates zoom effect on loading page */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+/*about section */
+
+.about {
+	width:100%;
+	max-width: 1000px;
+}
+
+.about-subsection {
+max-width: 700px;
+display: flex;
+
+}
+.odd {
+	margin-right: auto;
+	flex-direction: row;
+
+}
+.even {
+	margin-left: auto;
+	flex-direction: row-reverse;
+}
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
   
   @media all and (max-width: 800px) {
 	.navigation {
 	  justify-content: space-around;
 	}
-  }
-  
+ 
+	 
   @media all and (max-width: 600px) {
 	.navigation {
 	  /*flex-flow: column wrap;*/
@@ -91,26 +152,4 @@ img {
 	.navigation li:last-of-type a {
 	  border-bottom: none;
 	}
-	
-	/*about section */
-
-	.about {
-		width:100%;
-		max-width: 1000px;
-	}
-
-	.about-subsection {
-	max-width: 700px;
-	display: flex;
-
-	}
-	.odd {
-		margin-right: auto;
-		flex-direction: row;
-
-	}
-	.even {
-		margin-left: auto;
-		flex-direction: row-reverse;
-	}
-  }
+  
