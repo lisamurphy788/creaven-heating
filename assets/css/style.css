@@ -15,14 +15,17 @@ body {
  h1, 
  h2, 
  h3, 
+ h4,
  p {
 	margin: 10px;
  }
- h1, h2, h3 {
+ h1, h2, h3, h4 {
 	color: orange;
- }
-
-
+	font-weight: 800;
+	line-height: 1;
+	
+}
+ 
 header {
 	background-color: white;
 	display: flex;
@@ -43,7 +46,10 @@ header {
 }
 img {
     width: 40%;
+	padding: 1rem;
 }
+
+	
 /*adapted from https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
 
 .navigation {
