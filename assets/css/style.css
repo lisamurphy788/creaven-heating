@@ -83,9 +83,7 @@ img {
 #cover-text, #cover-text h2 {
     color: #fff;
 }
-.hero-outer {
-/* display: flex;*/
-}
+
 .hero-image {
     height: auto;
     width: 100%;
@@ -160,6 +158,12 @@ footer {
     padding: 5%;
     color: #3a3a3a;
 }
+/* contact us section */
+
+
+  
+ 
+  
 @media all and (max-width: 1200px) {
 	.about {
 		width: 100%;
@@ -197,4 +201,4 @@ footer {
 	img {
 		width: 100%;
 	}
-  
+  }
