@@ -6,26 +6,20 @@
 	box-sizing: border-box;
 }
 body {
- font-family: Raleway, Arial, Helvetica, sans-serif;
- font-weight: 300;
- font-size: 1.3125rem;
- line-height: 1.5;
- color: white;
+	font-family: Raleway, Arial, Helvetica, sans-serif;
+	font-weight: 300;
+	font-size: 1.3125rem;
+	line-height: 1.5;
+	color: white;
 }
- h1, 
- h2, 
- h3, 
- h4,
- p {
+h1, h2, h3, h4, p {
 	margin: 10px;
- }
- h1, h2, h3, h4 {
+}
+h1, h2, h3, h4 {
 	color: orange;
 	font-weight: 800;
 	line-height: 1;
-	
 }
- 
 header {
 	background-color: white;
 	display: flex;
@@ -35,85 +29,67 @@ header {
 	flex-grow: 4;
 	justify-content: space-between;
 	flex-wrap: wrap;
-
 }
-	
 .logo {
 	background-color: white;
 	width: 100%;
 	display: contents;
-	
 }
 img {
-    width: 40%;
+	width: 40%;
 	padding: 1rem;
 }
-
-	
-/*adapted from https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
-
+/*adapted from https://css-tricks.com/snippets/css/a-guide-to-flexbox
+/*/
 .navigation {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: flex-end;
-
 	align-items: center;
 	gap: 10px;
-	
-	
 	list-style: none;
-	margin: 0; 
+	margin: 0;
 	height: 100%;
-  }
-  
-  .navigation a {
+}
+.navigation a {
 	text-decoration: none;
 	display: block;
 	padding: 1em;
 	color: grey;
 	font-weight: 800;
-	
-  }
-  
-  .navigation a:hover {
+}
+.navigation a:hover {
 	background: orange;
-  }
+}
 /* hero image and cover text */
-
 #cover-text, #cover-text h2 {
-    color: #fff;
+	color: #fff;
 }
-
 .hero-image {
-    height: auto;
-    width: 100%;
+	height: auto;
+	width: 100%;
 	padding: 10px;
-	/*justify-content: center;
-    
-
-    /* animates zoom effect on loading page */
-    animation-name: hero-zoom;
-    animation-duration: .2s;
-    animation-fill-mode: forwards;
+   /*justify-content: center;
+   /* animates zoom effect on loading page */
+	animation-name: hero-zoom;
+	animation-duration: .2s;
+	animation-fill-mode: forwards;
 }
-
 /* creates the level of zoom for hero image */
 @keyframes hero-zoom {
-    from{
-        transform: scale(.5);
-    }
-    to{
-        transform: scale(1);
-    }
+	from{
+		transform: scale(.5);
+   }
+	to{
+		transform: scale(1);
+   }
 }
 /*about section */
-
 .about {
 	margin-top: 10px;
 	width:100%;
 	max-width: 1000px;
 	background-color: white;
-	
 }
 #cover-text {
 	background-color: white;
@@ -125,16 +101,13 @@ img {
 	background-color: white;
 	color: #3a3a3a;
 }
-
 .about-subsection {
-max-width: 700px;
-display: flex;
-
+	max-width: 700px;
+	display: flex;
 }
 .odd {
 	margin-right: auto;
 	flex-direction: row;
-
 }
 .even {
 	margin-left: auto;
@@ -145,80 +118,71 @@ button {
 	color: white;
 }
 /* footer */
-
 footer {
-    height: 150px;
-	
+	height: 150px;
 }
-
 .social-networks {
-    text-align: center;
+	text-align: center;
 }
-
 .social-networks > li {
-    display: inline;
+	display: inline;
 }
-
 .social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
+	font-size: 160%;
+	margin: 1%;
+	padding: 5%;
+	color: #3a3a3a;
 }
 /* contact us section */
-
 .contact-heading {
 	text-align: center;
 }
-
 section.services {
-    display: flex;
-    flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
 }
 .services h2, h3 {
 	text-align: center;
-} 
-  
+}
 @media all and (max-width: 1200px) {
 	.about {
 		width:100%;
 		background-color: white;
+   }
 }
-}
-  @media all and (max-width: 800px) {
+@media all and (max-width: 800px) {
 	.navigation {
-	  justify-content: space-around;
-	}
+		justify-content: space-around;
+   }
 	img {
 		width:100%;
-	}
+   }
 }
-	 
-  @media all and (max-width: 600px) {
-
+@media all and (max-width: 600px) {
 	.navigation {
-	  /*flex-flow: column wrap;*/
-	  padding: 0;
-	  display: flex;
-	  flex-wrap: nowrap;
-	  justify-content: center;
-	  align-items: flex-end;
-	}
-	.navigation a { 
-	  text-align: end; 
-	  padding: 10px;
-	  border-top: 1px solid rgba(255, 255, 255,0.3); 
-	  border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
-	}
+	   /*flex-flow: column wrap;
+	   */
+		padding: 0;
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: center;
+		align-items: flex-end;
+   }
+	.navigation a {
+		text-align: end;
+		padding: 10px;
+		border-top: 1px solid rgba(255, 255, 255,0.3);
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+   }
 	.navigation li:last-of-type a {
-	  border-bottom: none;
-	}
+		border-bottom: none;
+   }
 	img {
 		width: 100%;
-	}
+   }
 	.about-subsection {
 		max-width: 700px;
 		display: flex;
 		flex-wrap: wrap;
-	}
-  }
+   }
+}
