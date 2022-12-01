@@ -161,13 +161,17 @@ footer {
 }
 /* contact us section */
 
-
+.contact-heading {
+	text-align: center;
+}
 
 section.services {
     display: flex;
     flex-wrap: wrap;
 }
- 
+.services h2, h3 {
+	text-align: center;
+} 
   
 @media all and (max-width: 1200px) {
 	.about {
@@ -211,4 +215,5 @@ section.services {
 		max-width: 700px;
 		display: flex;
 		flex-wrap: wrap;
-}
+	}
+  }
