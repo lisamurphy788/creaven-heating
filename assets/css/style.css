@@ -109,6 +109,7 @@ img {
 /*about section */
 
 .about {
+	margin-top: 10px;
 	width:100%;
 	max-width: 1000px;
 	background-color: white;
@@ -120,6 +121,7 @@ img {
 	margin: 0;
 }
 .split {
+	margin-left: 10px;
 	background-color: white;
 	color: #3a3a3a;
 }
@@ -137,6 +139,10 @@ display: flex;
 .even {
 	margin-left: auto;
 	flex-direction: row-reverse;
+}
+button {
+	background-color: blue;
+	color: white;
 }
 /* footer */
 
@@ -175,11 +181,10 @@ section.services {
   
 @media all and (max-width: 1200px) {
 	.about {
-		width: 100%;
-		max-width: 2000px;
-	}
+		width:100%;
+		background-color: white;
 }
-  
+}
   @media all and (max-width: 800px) {
 	.navigation {
 	  justify-content: space-around;
