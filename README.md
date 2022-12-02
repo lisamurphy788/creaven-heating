@@ -76,6 +76,9 @@
  #### **The header and footer**
  - Are both present throughout all the pages. 
  - Have the same background color throughout. 
+ ![Navigation](readme/nav.JPG)
+
+ ![Footer](readme/footer.JPG)
 
  #### **The Header Includes**
  - The logo and the nav bar outlining the options for Home, Services and Contact. The logo when clicked on any page will take you back to the home page. 
@@ -85,12 +88,17 @@
 
  #### **The Homepage**
  The homepage/landing page includes an image that has some animation. It zooms slightly on landing. Also provides some information on services covered. You can get to the contact page from all pages also through a contact us. 
-
+ ![Homepage](readme/home.JPG)
  #### **Services Page**
  Provides information on the services provided.  
+  ![Services](readme/services.JPG)
+ #### **Contact page**
+ The contact page includes an image and a contact form. 
+ ![Contact](readme/contact.JPG)
+
  ### **Future Features**
  - Include maps and phone numbers.
- - Once the form has been submitted the user should get a confirmation email or confirmation. 
+ - Once the form has been submitted the user should get a confirmation email or confirmation on screen. 
  - Hamburger menu for mobile and tablet
  - Reviews carosel. 
   ## Main Technologies Used
@@ -127,24 +135,18 @@ No errors where found
 
 ### User Stories Testing 
 #### Site User
-- As a user of this site, I want to find out information on what air to water is. 
-Achieved through the homepage and services page. 
+- As a user of this site, I want to find out information on what air to water is. - Achieved through the homepage and services page. 
 
-- As a user of this site, I want to know I want to be able to submit a contact form. 
-Yes form can be submited, however it is not giving any information if it was successful. 
+- As a user of this site, I want to know I want to be able to submit a contact form. - Yes form can be submited, however it is not giving any information if it was successful. 
 
-- As a user of this site, I want to know if the service provides for emergencys. 
-Yes this is outlined in the homepage. 
-- As a user of this site, I want to be able to use this website fully from my mobile.
-Yes i can access and is fully responsive on ios and android. 
-- As a user of this site, I want to know what areas are covered.
-Yes i can see this from the homepage. 
-- As a user of this site, I want links to social media so I can check for any issues with past customers or ask any questions. 
-Yes social media works. 
+- As a user of this site, I want to know if the service provides for emergencys. - Yes this is outlined in the homepage. 
+- As a user of this site, I want to be able to use this website fully from my mobile.- Yes i can access and is fully responsive on ios and android. 
+- As a user of this site, I want to know what areas are covered.- Yes i can see this from the homepage. 
+- As a user of this site, I want links to social media so I can check for any issues with past customers or ask any questions. - Yes social media works. 
 #### Site Owner
-- As a site owner, I want the customer journey to be as seamless as possible. 
-- As a site owner, I want to make sure the user finds the website and they find it informative and understand the process. 
-- As a site owner, I want the customer to be able to contact me via contact form. 
+- As a site owner, I want the customer journey to be as seamless as possible. - Only three pages. Very easy to navigate.  
+- As a site owner, I want to make sure the user finds the website and they find it informative and understand the process. - Not overloaded with informaiton 
+- As a site owner, I want the customer to be able to contact me via contact form. - Achieved 
 
  ## Deployment
  **To deploy the project**
