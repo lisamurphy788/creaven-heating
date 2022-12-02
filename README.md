@@ -12,20 +12,17 @@
       - [Typography](#typography)
       - [Colors](#colors)
       - [Images](#images)
-    + [Wireframes](#wireframes)
+    
   * [Features](#features)
     + [Existing Features](#existing-features)
-      - [**The header and footer**](#--the-header-and-footer--)
-      - [**The Header Includes**](#--the-header-includes--)
-      - [**The Footer Includes**](#--the-footer-includes--)
-      - [**The Homepage**](#--the-homepage--)
-      - [**The about page**](#--the-about-page--)
-    + [**How it works page**](#--how-it-works-page--)
-      - [Top section - How it works](#top-section---how-it-works)
-      - [Bottom Image and bottom section - How it works](#bottom-image-and-bottom-section---how-it-works)
-    + [**FAQ page**](#--faq-page--)
-    + [**Contact**](#--contact--)
-    + [**Thank you page**](#--thank-you-page--)
+      - **The Header and Footer**
+      - **The Header Includes**
+      - **The Footer Includes**
+      - **The Homepage**
+      - **The Services page**
+      - **Contact page**
+ 
+  
     + [Future Features](#future-features)
   * [Testing](#testing)
   * [Deployment](#deployment)
@@ -220,6 +217,6 @@ I used Freeformater to run my HTML through for cleaning and indentation. [Free F
 
 
 ### Acknowledgments
-I would like to thank my mentor Brian for all his support and guidance. 
-My family for all the testing on all the different devices. 
-My cohort who are a great support. 
+- I would like to thank my mentor Brian for all his support and guidance. 
+- My family for all the testing on all the different devices. 
+- My cohort who are a great support. 
