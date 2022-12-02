@@ -122,8 +122,29 @@ There were some info messages however these were related to the bootstrap contac
 ### CSS testing 
 No errors where found 
 ![CSS Testing](readme/css.png)
+### Lighthouse testing
+![Lighthouse](readme/lighthouse.PNG)
 
+### User Stories Testing 
+#### Site User
+- As a user of this site, I want to find out information on what air to water is. 
+Achieved through the homepage and services page. 
 
+- As a user of this site, I want to know I want to be able to submit a contact form. 
+Yes form can be submited, however it is not giving any information if it was successful. 
+
+- As a user of this site, I want to know if the service provides for emergencys. 
+Yes this is outlined in the homepage. 
+- As a user of this site, I want to be able to use this website fully from my mobile.
+Yes i can access and is fully responsive on ios and android. 
+- As a user of this site, I want to know what areas are covered.
+Yes i can see this from the homepage. 
+- As a user of this site, I want links to social media so I can check for any issues with past customers or ask any questions. 
+Yes social media works. 
+#### Site Owner
+- As a site owner, I want the customer journey to be as seamless as possible. 
+- As a site owner, I want to make sure the user finds the website and they find it informative and understand the process. 
+- As a site owner, I want the customer to be able to contact me via contact form. 
 
  ## Deployment
  **To deploy the project**
