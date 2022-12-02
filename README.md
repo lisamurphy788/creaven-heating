@@ -145,6 +145,9 @@ No errors where found
 - As a site owner, I want to make sure the user finds the website and they find it informative and understand the process. - Not overloaded with informaiton 
 - As a site owner, I want the customer to be able to contact me via contact form. - Achieved 
 
+#### Site Owner
+- One Bug resolved it was inrelation to all the images having a space beteen them. 
+
  ## Deployment
  **To deploy the project**
 
