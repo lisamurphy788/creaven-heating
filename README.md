@@ -114,9 +114,10 @@ A number of errors and warnings appeared first when testing. However all the err
 ![Errors Before](readme/index.JPG)
 
 Once testing was finished the only issues that were outstanding where the below. 
-![Warnings](readme/warning.JPG)
+![Warnings](readme/warning.png)
 ## Code Validator testing 
-
+The designer did not add in any addtional headings to clear this warning as this was a design choice. 
+There were some info messages however these were related to the bootstrap contact form. 
 
 ### CSS testing 
 No errors where found 
