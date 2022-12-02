@@ -104,9 +104,23 @@
 - [Font Awesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2) Used for icons for social media 
 - [Google Chrome Screen Reader Extension](https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn?hl=en) Used to test screen reading
 - [Bootstrap](https://getbootstrap.com/) Used for contact form and contact us
+- [W3C Validator](https://validator.w3.org/) Used for testing HTML 
+- [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/)
 
 ## Testing
+### HTML testing
+A number of errors and warnings appeared first when testing. However all the errors where fixed. 
 
+![Errors Before](readme/index.JPG)
+
+Once testing was finished the only issues that were outstanding where the below. 
+![Warnings](readme/warning.JPG)
+## Code Validator testing 
+
+
+### CSS testing 
+No errors where found 
+![CSS Testing](readme/css.png)
 
 
 
@@ -147,10 +161,10 @@ Some of the nav bar was adpapted from
 For getting a better understanding of displaying divs I watched the following video's:  
 [coder-coder](https://coder-coder.com/display-divs-side-by-side/) 
 
-For getting a better understanding of contact forms i watched the following video:
+For getting a better understanding of contact forms i watched the following video
 [How to build a responsive form with flexbox](https://webdesign.tutsplus.com/tutorials/building-responsive-forms-with-flexbox--cms-26767)
 
-[To get a better understanding of Flexbox I used CSS tricks - a guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/ )
+To get a better understanding of Flexbox I used CSS tricks  [A guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/ )
 
 In order to gain a better understanding of HTML and CSS I watched the following channels that provided tutorials on both aspects some examples of these can be seen below;
 
