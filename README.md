@@ -93,4 +93,15 @@
  - Once the form has been submitted the user should get a confirmation email or confirmation. 
  - Hamburger menu for mobile and tablet
  - Reviews carosel. 
- 
+  ## Main Technologies Used
+- [Github](https://github.com/) Used for hosting the project
+- [Gitpod](https://gitpod.io) Used for developing the website 
+- [HTML](https://en.wikipedia.org/wiki/HTML5) Used to provide content and structure
+- [CSS](https://www.w3schools.com/css/) Used to provide styling
+- [Am I Responsive](http://ami.responsivedesign.is/) Used to show visual responsiveness
+- [Free Formatter](https://www.freeformatter.com) Used to clean up HTML and CSS 
+- [Googe Fonts](https://fonts.google.com/) Used for main fonts listed
+- [Font Awesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2) Used for icons for social media 
+- [Google Chrome Screen Reader Extension](https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn?hl=en) Used to test screen reading
+- [Bootstrap](https://getbootstrap.com/) Used for contact form and contact us
+
