@@ -3,3 +3,38 @@
 
 ![amiresponsiveimage](readme/responsive.JPG)
  
+ * [UX](#ux)
+    + [Project Goals](#project-goals)
+    + [User Stories](#user-stories)
+      - [Site User](#site-user)
+      - [Site Owner](#site-owner)
+    + [Design Choices](#design-choices)
+      - [Typography](#typography)
+      - [Colors](#colors)
+      - [Images](#images)
+    + [Wireframes](#wireframes)
+  * [Features](#features)
+    + [Existing Features](#existing-features)
+      - [**The header and footer**](#--the-header-and-footer--)
+      - [**The Header Includes**](#--the-header-includes--)
+      - [**The Footer Includes**](#--the-footer-includes--)
+      - [**The Homepage**](#--the-homepage--)
+      - [**The about page**](#--the-about-page--)
+    + [**How it works page**](#--how-it-works-page--)
+      - [Top section - How it works](#top-section---how-it-works)
+      - [Bottom Image and bottom section - How it works](#bottom-image-and-bottom-section---how-it-works)
+    + [**FAQ page**](#--faq-page--)
+    + [**Contact**](#--contact--)
+    + [**Thank you page**](#--thank-you-page--)
+    + [Future Features](#future-features)
+  * [Testing](#testing)
+  * [Deployment](#deployment)
+  * [Credits](#credits)
+    + [Content](#content)
+    + [Media](#media)
+    + [Acknowledgments](#acknowledgments)
+  
+
+ Creaven Heating and plumbing is a informative website used for providing people with information on newer more GREENER ways to consume energy for heating your home. They also provide other services such as call outs and emergency work. 
+
+ You can visit the deployed site here [here](https://lisamurphy788.github.io/creaven-heating/index.html)
